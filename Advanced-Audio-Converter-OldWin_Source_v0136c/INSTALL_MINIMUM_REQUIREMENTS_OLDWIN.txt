@@ -1,0 +1,66 @@
+ADVANCED AUDIO CONVERTER OLDWIN
+MINIMUM SYSTEM REQUIREMENTS
+
+This is the absolute minimum target for the OldWin Legacy build.
+
+Operating system:
+  Windows XP SP3 x86 minimum.
+  Also compatible with Windows 7 / 8 / 10 / 11, 32-bit or 64-bit.
+
+Architecture:
+  32-bit x86 application runtime.
+  On 64-bit Windows it runs through WOW64.
+
+CPU:
+  Absolute minimum:
+    800 MHz i686-compatible CPU.
+
+  Recommended minimum:
+    1 GHz Pentium III / Pentium 4 / Athlon XP class CPU or newer.
+
+RAM:
+  Absolute minimum:
+    384 MB RAM.
+
+  Recommended minimum:
+    512 MB RAM.
+
+  Comfortable:
+    1024 MB RAM or more.
+
+Disk space:
+  Absolute minimum:
+    250 MB free disk space for installation.
+
+  Recommended:
+    500 MB or more, especially for temporary and output audio files.
+
+Display:
+  Absolute minimum:
+    800x600 resolution.
+
+  Recommended:
+    1024x768 or higher.
+
+Audio hardware:
+  Not required for conversion.
+  Only needed for playback, preview or system sounds.
+
+Network:
+  Not required.
+
+Extra requirements:
+  No separate Python installation required.
+  No separate PyQt4 installation required.
+  No separate FFmpeg installation required.
+
+Bundled runtime:
+  Python 3.4 x86 runtime
+  PyQt4 / Qt 4 x86 runtime
+  FFmpeg 3.0 win32
+  FFprobe 3.0 win32
+
+Notes:
+  384 MB RAM is the lowest practical target for launching and doing small jobs.
+  512 MB RAM is strongly recommended for real conversion work.
+  Large batches, lossless files and long audio files may need more RAM and disk space.

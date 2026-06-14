@@ -1,0 +1,31 @@
+Advanced Audio Converter OldWin - Third-party license notices
+
+Application license:
+- Advanced Audio Converter OldWin source code: MIT License, copyright (c) 2026 unliked1280.
+
+Bundled/runtime/build components:
+
+1. PyQt4 4.11.4 / Riverbank Computing
+   License: GPL v3 for the free edition, or commercial Riverbank license.
+   This XP build uses the GPL PyQt4 installer unless you replace it with a commercial license.
+
+2. Qt 4.8.7
+   License family: LGPL/GPL/commercial depending on Qt package and modules.
+   Qt DLLs must keep their copyright/license notices.
+
+3. FFmpeg 3.0 win32 static
+   FFmpeg is LGPL by default, but this XP static build reports --enable-gpl and --enable-version3.
+   Treat bundled ffmpeg.exe and ffprobe.exe as GPLv3-covered binaries for redistribution.
+
+4. Python 3.4.x
+   License: Python Software Foundation License.
+
+5. PyInstaller 3.4
+   License: GPL with the PyInstaller bootloader exception.
+   Used for building the frozen executable/onedir package.
+
+6. 7-Zip, if used manually for unpacking archives
+   License: LGPL with unRAR restriction for some parts, depending on the files distributed.
+   7-Zip is not bundled unless you add it to your installer package.
+
+This file is informational and is not legal advice. For public distribution, also include the full license files supplied by each redistributed component.

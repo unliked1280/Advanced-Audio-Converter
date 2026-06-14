@@ -1,0 +1,13 @@
+BUGSEARCH / PATCH NOTES 0.13.6c
+
+Static checks:
+  - Python compile() syntax check: OK
+  - APP_VERSION 0.13.6c: OK
+  - default dark_theme: False
+  - missing-key fallback dark_theme: False
+  - clean_cpu_vendor(): OK
+  - clean_cpu_name(): OK
+  - format_cpu_line(): OK
+  - format_pc_line(): OK
+  - nice RAM summary formatting: OK
+  - Inno numeric version 0.13.6.3: OK
