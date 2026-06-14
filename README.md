@@ -33,3 +33,11 @@ Python is not required on target systems.
 
 This branch exists for old Windows compatibility.
 Modern branch development continues separately.
+
+## AI-assisted development notice
+
+Parts of this project were developed with assistance from AI tools.
+
+The project owner reviewed, tested, modified, and integrated the generated code manually. AI assistance was used for code drafting, debugging, refactoring, documentation, localization, and build-script preparation.
+
+AI-generated output is not treated as automatically correct or production-ready. All released builds are manually tested before publication, esp. on legacy Windows systems.
